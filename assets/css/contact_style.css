@@ -1,0 +1,78 @@
+.forms-container{
+    display: flex;
+    width: 80%;
+}
+.left-form{
+    width: 48%;
+    margin: 2%;
+}
+.right-form{
+    width: 48%;
+    margin: 2%;
+}
+.field{
+    width: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #BCCE98;
+    margin: 40px 0;
+}
+div.placeholder {
+    margin:20px;
+    width: 36%;
+    height:40px;
+    position:absolute;
+    transition: 0.3s;
+}
+div.placeholder-1 {
+    margin:20px;
+    width: 9%;
+    height:40px;
+    position:absolute;
+    transition: 0.3s;
+}
+.moved {
+    transform: translate(0, -10px);
+    font-size: 12px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+}
+.gender{
+    width: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #BCCE98;
+    margin: 40px 0;
+}
+.gender-1{
+    width: 30%;
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #BCCE98;
+    margin: 40px 0;
+}
+.field-1{
+    width: 64%;
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #BCCE98;
+    margin: 40px 0;
+}
+.submit{
+    margin: 5px 0 0 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid #BCCE98;
+    background-color: #F7FDEB;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: #BCCE98;
+    color: #fff;
+    transition: 0.2s;
+}
