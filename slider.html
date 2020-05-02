@@ -19,28 +19,26 @@
         <article>
 
 
-            <div id="block-for-slider">
-                <div id="viewport">
-                    <ul id="slidewrapper">
-                        <li class="slide"><img src="public/images/1.jpg" alt="2" class="slide-img"></li>
-                        <li class="slide"><img src="public/images/2.jpg" alt="1" class="slide-img"></li>
-                        <li class="slide"><img src="public/images/3.jpg" alt="3" class="slide-img"></li>
-                        <li class="slide"><img src="public/images/4.jpg" alt="4" class="slide-img"></li>
-                    </ul>
-
-                    <div id="prev-next-btns" >
-                        <div id="prev-btn"><img src="assets\img\стрелочка1.png"  width="35" height="35" class="img-vert"></div>
-                        <div id="next-btn"><img src="assets\img\стрелочка2.png"  width="35" height="35" class="img-"></div>
+            <section>
+                <div class="slider">
+                    <div id="img-container" class="images-container">
+                        <img class="slider-item fade" src="public/images/1.jpg" alt="">
+                        <img class="slider-item fade" src="public/images/2.jpg" alt="">
+                        <img class="slider-item fade" src="public/images/3.jpg" alt="">
+                        <img class="slider-item fade" src="public/images/4.jpg" alt="">
                     </div>
-
-                    <ul id="nav-btns">
-                        <li class="slide-nav-btn"></li>
-                        <li class="slide-nav-btn"></li>
-                        <li class="slide-nav-btn"></li>
-                        <li class="slide-nav-btn"></li>
-                    </ul>
+                    <div class="buttons-block">
+                        <div id="prev-btn">&lt;</div>
+                        <div id="next-btn">&gt;</div>
+                    </div>
+                    <div id="dots-block">
+                        <button class="dot dot-active"></button>
+                        <button class="dot"></button>
+                        <button class="dot"></button>
+                        <button class="dot"></button>
+                    </div>
                 </div>
-            </div>
+            </section>
 
 
 
@@ -80,7 +78,6 @@
     </footer>
 
 </div>
-<script type="text/javascript" src="assets/js/jquery-3.4.0.min.js"></script>
 <script type="text/javascript" src="assets/js/slider.js"></script>
 </body>
 </html>
